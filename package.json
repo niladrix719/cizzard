@@ -1,0 +1,17 @@
+{
+  "name": "cizzard-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "keywords": [],
+  "author": "Niladri Adhikary",
+  "license": "ISC",
+  "description": "Frontend framework project",
+  "private": true,
+  "workspaces": [
+    "packages/runtime"
+  ]
+}
